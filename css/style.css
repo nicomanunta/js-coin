@@ -75,14 +75,17 @@
 }
 
 .btn-flip{
-    color: #1D3557;
-    background-color: #A8DADC;
+    
+    color:#1D3557;
+    background-color: #FFD700;
+    
     
 
 }
 .btn-flip:hover{
-    color:#1D3557;
-    background-color: #FFD700;
+    color: #1D3557;
+    background-color: #A8DADC;
+    
     
 }
 .row{
