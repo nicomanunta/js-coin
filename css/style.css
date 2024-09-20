@@ -31,8 +31,9 @@
 
 .text-poppins {
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-weight: bold;
     font-style: normal;
+    
 }
 .text-roboto {
     font-family: "Roboto", sans-serif;
@@ -47,14 +48,14 @@
    
 }
 #result {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 30px;
+   
 }
 
 /* Stile per la moneta */
 .coin {
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 180px;
     background-image: url('../img/front.png'); /* Imposta immagine predefinita */
     background-size: cover;
     background-position: center;
@@ -70,19 +71,24 @@
 }
 
 .flip {
-    animation: flipCoin 2s ease-in-out;
+    animation: flipCoin 3s ease-in-out;
 }
 
 .btn-flip{
-    color:#1D3557;
-    background-color: #FFD700;
+    color: #1D3557;
+    background-color: #A8DADC;
+    
 
 }
 .btn-flip:hover{
-    color: #1D3557;
-    background-color: #A8DADC;
+    color:#1D3557;
+    background-color: #FFD700;
     
 }
 .row{
     border-radius: 20px;
+}
+
+.shadow-gold{
+    text-shadow: 2px 2px #ffd90058;
 }
