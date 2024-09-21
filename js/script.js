@@ -1,7 +1,7 @@
 // elementi del bottone, del risultato e della moneta
-const flipButton = document.getElementById('flipButton');
-const result = document.getElementById('result');
-const coin = document.getElementById('coin');
+let flipButton = document.getElementById('flipButton');
+let result = document.getElementById('result');
+let coin = document.getElementById('coin');
 
 // aggiungo un evento click al bottone
 flipButton.addEventListener('click', () => {
@@ -14,7 +14,7 @@ flipButton.addEventListener('click', () => {
     // dopo 2 secondi (tempo dell'animazione) mostro il risultato
     setTimeout(() => {
         // genero un numero casuale tra 0 e 1
-        const random = Math.random();
+        let random = Math.random();
         
         // se il numero casuale è minore di 0.5, è "Testa", altrimenti è "Croce"
         if (random < 0.5) {
