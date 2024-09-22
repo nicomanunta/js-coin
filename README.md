@@ -1,4 +1,4 @@
-# js-coin
+# js-coin 🪙
 
 **js-coin** è una semplice applicazione web di testa o croce sviluppata con HTML, CSS, Bootstrap e JavaScript. L'app permette di simulare il lancio di una moneta, mostrando un'animazione di rotazione al premere del tasto "Lancia", e determinando se il risultato sarà "Testa" o "Croce".
 
